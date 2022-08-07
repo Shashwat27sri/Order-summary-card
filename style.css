@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Red Hat Display';
+    
+}
+.container{
+    box-sizing: content-box;
+    width: 350px;
+    height: 525px;
+    border-radius: 15px;
+    background: white;
+    margin-left:28pc ;
+    margin-top: 3pc;
+}
+.imgg{
+    width: 350px;
+    border-radius: 15px;
+}
+#play{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#order{
+    font-weight: 900;
+    font-size: 25px;
+}
+#line{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color:rgba(75, 97, 185, 0.425), 0.925) ;
+}
+.area{
+    background-color: hsla(224, 30%, 64%, 0.144);
+    box-sizing: border-box;
+    width: 300px;
+    height: 70px;
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+    margin-left:25px ;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+}
+#imggg{
+    padding-right: 6px;
+}
+#textt{
+    padding-top: 15px;
+    line-height: 8px;
+    font-weight: 700;
+
+}
+#rate{
+    font-weight: 500;
+}
+#change{
+    margin-left: 55px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    
+}
+#payment{
+    color: hsl(225, 100%, 98%);
+}
+#cancel{
+    font-size: 14px;
+}
